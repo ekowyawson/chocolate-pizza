@@ -1,0 +1,71 @@
+body {
+    max-width: 901px;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 5px ;
+}
+
+nav, nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+nav {
+    flex-direction: row-reverse;
+    gap: 3px;
+}
+
+hr {
+    background-image: url('../images/hr-img.png');
+    height: 10px;
+    border: none;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+.card header {
+    display: flex;
+    flex-direction: column;
+}
+
+/* TESTS */
+.recipe {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+.recipe li {
+    flex: 0 0 50%; /* Two columns, each occupying 50% of the container width */
+    text-align: left;
+    margin-bottom: 10px; /* Add spacing between list items */
+}
+
+.recipe label {
+    display: block; /* Make the label fill the entire list item */
+}
+
+/* Additional styles for checkboxes and span elements can be added here */
+
+/*  */
+
+footer {
+    text-align: center;
+    background-color: #F7F7F7;
+    color: grey;
+    padding: 10px;
+}
+footer img {
+    max-width: 100%;
+    height: auto;
+    padding: 10px;
+}
