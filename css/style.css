@@ -57,6 +57,9 @@ h1 {
 /* Additional styles for checkboxes and span elements can be added here */
 
 /*  */
+div.copy p {
+    margin: 15px 0;
+}
 
 footer {
     text-align: center;
